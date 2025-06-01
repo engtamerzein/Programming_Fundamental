@@ -1,0 +1,16 @@
+Question 1:
+Write a Python program that takes an integer as input and prints whether it is positive, negative, or zero.
+
+Question 2:
+Write a Python program that takes two numbers as input and prints the larger of the two. 
+    If they are equal, print "The numbers are equal."
+
+Question 3:
+Write a Python program that takes the length and width of a rectangle as input and 
+    prints whether it is a square or a rectangle.
+
+Question 4:
+Write a Python program that takes an integer as input and prints whether it is even or odd.
+
+# Question 5:
+# Write a Python program that takes three numbers as input and prints the largest of the three.
