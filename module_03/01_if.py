@@ -23,6 +23,16 @@
 # input_grade.isdigit()
 # and, or
 
+# grade = 80
+# good = grade >= 70
+# passed = grade >= 50
+# if grade >= 70:
+#     print("you are good")
+# elif grade >= 50:
+#     print("you are pass")
+# else:
+#     print("your are fail")
+
 # 70 -> good, 50 -> pass
 input_grade = input("please enter your grade: ")
 if input_grade.isdigit():
