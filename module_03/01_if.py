@@ -15,7 +15,11 @@
 # first_name = names[0][0].upper() + names[0][1:]
 # print(first_name)
 # first_item = names[0]
+<<<<<<< HEAD
 # first_letter = first_item[0]
+=======
+# fiurst_letter = first_item[0]
+>>>>>>> refs/remotes/origin/main
 
 # difference between function, method and variable
 # # keyword if, for, while, int, str
