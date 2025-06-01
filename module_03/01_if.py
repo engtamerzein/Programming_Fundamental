@@ -33,11 +33,16 @@
 # else:
 #     print("your are fail")
 
-# 70 -> good, 50 -> pass
+# exercise: 1
+# grade >= 80 -> your grade is A
+# grade >= 70 -> your grade is B
+# grade >= 60 -> your grade is C
+# grade >= 50 -> your grade is D
+# grade < 50 -> you fail
+
 input_grade = input("please enter your grade: ")
 if input_grade.isdigit():
     grade = int(input_grade)
-    # print(grade >= 50)
     if grade >= 70:
         print("you grade is passed")
     elif grade >= 50:
@@ -55,13 +60,13 @@ else:
 # can_play = is_study_math or is_study_history
 # print(can_play)
 
-# exercise: 1
+# exercise: 2
 # if the temprture between 20 and 25 print the weather is good, else print the weather is bad
 # input_number = 10
 # result = input_number>= 20 and input_number <= 25
 # print(result)
 
-# exercise: 2
+# exercise: 3
 # make the game of head or tail
 import random
 
