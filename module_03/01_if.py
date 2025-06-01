@@ -40,19 +40,19 @@
 # grade >= 50 -> your grade is D
 # grade < 50 -> you fail
 
-input_grade = input("please enter your grade: ")
-if input_grade.isdigit():
-    grade = int(input_grade)
-    if grade >= 70:
-        print("you grade is passed")
-    elif grade >= 50:
-        print("you are good")
-    else:
-        print("you are failed")
+# input_grade = input("please enter your grade: ")
+# if input_grade.isdigit():
+#     grade = int(input_grade)
+#     if grade >= 70:
+#         print("you grade is passed")
+#     elif grade >= 50:
+#         print("you are good")
+#     else:
+#         print("you are failed")
 
-    print("-" * 20)
-else:
-    print("please enter a valid number")
+#     print("-" * 20)
+# else:
+#     print("please enter a valid number")
 
 
 # is_study_math = False
