@@ -1,0 +1,9 @@
+project:
+
+project description:
+Develop a simple calculator application using Python.
+This calculator should be able to perform basic arithmetic operations (addition, subtraction, multiplication, and division) on two numbers provided by the user.
+
+project input: 
+1. prompt the user to enter the first number and the second number.
+2. prompt the user to enter the desired arithmetic operator (+, -, *, or /).
