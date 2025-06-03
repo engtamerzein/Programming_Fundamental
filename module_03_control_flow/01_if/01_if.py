@@ -1,6 +1,6 @@
 # review the variables
 # number -> integer -> int
-# decemail number -> float
+# decimal number -> float
 # text => string -> str-> text + text, text[0], text[-1], text[2:3], len(text), text.upper(), text.lower()
 # escape character -> \n, \", \\
 # list = list['text', num] -> list[0] -> len(list) -> list.append("") -> list.insert(1, "") -> list.pop()
@@ -66,31 +66,3 @@
 # result = input_number>= 20 and input_number <= 25
 # print(result)
 
-# exercise: 3
-# make the game of head or tail
-import random
-
-user_guess = input("Guess 'Head' or 'Tail': ").lower()
-
-# Validate user input
-if user_guess in ["head", "tail"]:
-
-    # Define the possible outcomes of a coin flip
-    outcomes = ["Head", "Tail"]
-
-    # Randomly choose one outcome from the list
-    result = random.choice(outcomes)
-
-    # Print the result of the coin flip
-    print(f"The coin landed on: {result}")
-
-    # Compare user's guess with the actual result
-    # Convert the result to lowercase for case-insensitive comparison
-    if user_guess == result.lower():
-        print("Congratulations! You guessed correctly!")
-    else:
-        print("Sorry, you guessed incorrectly. Better luck next time!")
-
-    print("Thanks for playing!")
-else:
-    print("Invalid guess. Please enter 'Head' or 'Tail'.")
