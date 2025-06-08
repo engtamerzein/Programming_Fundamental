@@ -14,3 +14,6 @@ Write a Python program that takes an integer as input and prints whether it is e
 
 # Question 5:
 # Write a Python program that takes three numbers as input and prints the largest of the three.
+
+# Question 6:
+# if the temperature between 20 and 25 print the weather is good, else print the weather is bad
